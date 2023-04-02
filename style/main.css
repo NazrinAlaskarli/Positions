@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.Border{
+    height: 550px;
+    width: 650px;
+    border: 1px solid rgb(201, 39, 39);
+    position: relative;
+}
+.One{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(97, 219, 219);
+    border-radius: 10%;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    z-index: 1  ;
+}
+.Two{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(119, 119, 218);
+    border-radius: 10%;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+}
+.Three{
+    height: 150px;
+    width: 150px;
+    background-color: rgba(163, 57, 15, 0.842);
+    border-radius: 10%;
+    position: absolute;
+    left: 30px;
+    top: 30%;
+}
+.Four{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(93, 48, 228);
+    border-radius: 15%;
+    position: absolute;
+    left: 32px;
+    top: 65%;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(7, 10, 12);
+}

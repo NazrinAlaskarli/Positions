@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.Border{
+    border: 3px dashed black;
+    height: 450px;
+    width: 950px;
+    position: relative;
+}
+.Box{
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    border-radius: 1%;
+}
+.Red{
+    background-color: red;
+}
+.Orange{
+    background-color: orange;
+    right: 0;
+}
+.Yellow{
+    background-color: yellow;
+    bottom: 0;
+}
+.Green{
+    background-color: rgb(70, 210, 70);
+    bottom: 0;
+    right: 0;
+}
+.Blue{
+    background-color: rgb(33, 170, 201);
+    top: 40%;
+    left: 34%;
+}
